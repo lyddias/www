@@ -1,0 +1,939 @@
+	body {
+	   	margin: 0;
+	   	padding: 0;
+	}
+
+	/*nav*/
+
+	.header {
+		width: 100%;
+        height: 40px;
+		position: fixed;
+		letter-spacing: 3px;
+		z-index: 1;
+        background-color: #000000;
+        opacity: 0.8;
+        font-weight: 200;
+        text-transform: uppercase;
+	}
+
+	.hleft {
+		position: relative;
+		float: left;
+		margin-left: 100px;
+		margin-top: -6px;
+		font-size: 15px;
+	}
+
+	.hright {
+		position: relative;
+		float: right;
+		margin-top: -6px;
+		margin-right: 30px;
+		font-size: 15pX;
+	}
+ 
+ 	a {
+		text-decoration: none;
+	}
+
+	.header ul {
+		list-style-type: none;
+	}
+
+	.header li {
+		display: inline;
+	}
+
+	.header a {
+		text-decoration: none;
+		color: white;
+		padding:25px;
+	}
+
+	.header a:hover {
+		color: #808080;
+	}
+
+	/*footer*/
+
+	.footer {
+    	width: 100%;
+    	height: 400px;
+    	text-align: center;
+        background-color: #f8f8f8;
+    }
+
+    .footer .beian {
+    	width: 80%;
+    	position: relative;
+    	float: left;
+    	clear:both;
+    	margin-top: 110px;
+    	left: 50%;
+    	margin-left: -40%;
+    }
+
+    .footer .follow {
+        width: 80%;
+        position: relative;
+        float: left;
+        clear:both;
+        margin-top: 100px;
+        left: 50%;
+        margin-left: -40%;
+        font-size: 30px;
+        text-transform: capitalize;
+        letter-spacing: 3px;
+
+    }
+    .wrapper {
+        width: 80%;
+        position: relative;
+        float: left; 
+        margin-top: 0px;
+        left: 50%;
+        margin-left: -40%; 
+        clear: both;
+    }
+    
+    .wrapper ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .wrapper li {
+        display: inline;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .fa {
+        width: 50px;
+        height: 50px;
+        font-size: 1.8em;
+        line-height: 50px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.8);
+        border-radius: 50%;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .fa:hover,.fa:active {
+        color: #FFF;
+        -webkit-box-shadow: 1px 1px 3px #333;
+        -moz-box-shadow: 1px 1px 3px #333;
+        box-shadow: 1px 1px 3px #333; 
+    }
+    
+    .fa-github-square{background-color:#070709;} 
+    .fa-twitter{background-color:#32CCFE;} 
+    .fa-weibo{background-color:#D72B2B;}
+    .fa-facebook{background-color:#3C599F;}  
+    .fa-linkedin{background-color:#0085AE;} 
+    
+
+	/*home*/
+
+	.midd1-home {
+		width: 100%;
+		height: 720px;
+		background-color: #663399;
+        background: url(../images/intro.jpg) repeat fixed;
+		color: white;
+		text-align: center;
+        text-transform: uppercase;
+        font-weight: 900;
+        letter-spacing: -5px;
+        text-shadow: 1px 1px 1px #787777;
+	}
+
+	.midd1-home .title0 {
+		width: 80%;
+		position: relative;
+		float: left;
+		margin-top: 130px;	
+		left: 50%;
+		margin-left: -40%;
+        font-size: 120px;
+        font-family: 'Maven Pro', sans-serif;
+	}
+
+    .midd1-home .title1 {
+        width: 80%;
+        position: relative;
+        float: left;
+        margin-top: -110px;  
+        left: 50%;
+        margin-left: -40%;
+        clear: both;
+        font-size: 80px;
+    }
+
+    .midd1-home .title2 {
+        width: 80%;
+        position: relative;
+        float: left;
+        margin-top: -120px;  
+        left: 50%;
+        margin-left: -40%;
+        clear: both;
+        font-size: 120px;
+        color: #b46b6b;
+
+    }
+
+    .midd1-home .title3 {
+        width: 80%;
+        position: relative;
+        float: left;
+        margin-top: -150px;  
+        left: 50%;
+        margin-left: -40%;
+        clear: both;
+        font-size: 80px;
+        font-family: Baskerville, 'Maven Pro', serif;
+        font-style: italic;
+    }
+
+    .midd1-home .title4 {
+        width: 80%;
+        position: relative;
+        float: left;
+        margin-top: -90px;  
+        left: 50%;
+        margin-left: -40%;
+        font-size: 80px;
+        clear: both;
+    }
+
+    .midd1-home .line {
+        background: url(../images/intro_line.png) no-repeat;
+        width: 254px;
+        height: 8px;
+        display: inline-block;
+        margin: 0 20px 12px 25px;
+    }
+
+    .midd2-home {
+    	width: 100%;
+    	height: 3890px;
+    	background-color: #e0e0e0;
+
+    }
+
+    /*aboutme*/
+
+    .aboutme {
+        width: 100%;
+        height: 750px;  
+        background-color: white;
+        color:#372d38;
+    }
+
+    .aboutme h2 {
+        width: 100%;
+        position: relative;
+        float: left;
+        font-size: 20px;
+        margin-top: 85px;
+        text-align: center;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    .aboutme > p {
+        width:100%;
+        position: relative;
+        float: left;
+        font-size: 15px;
+        clear: both;
+        text-align: center;
+        margin-top: 43px;
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    .aboutme .intro {
+        width: 40%;
+        height: 400px;
+        position: relative;
+        float: left;
+        left: 18%;
+        margin-top: 40px;
+    }
+
+    .aboutme .intro h4 {
+        text-transform: capitalize;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+
+    .aboutme .intro h3 {
+        font-weight: 500;
+        font-size: 18px;
+        margin-top: -15px;
+    }
+
+    .aboutme .intro p {
+        font-size: 15px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        line-height: 30px;
+        text-align: justify;
+        text-indent: 32px;
+    }
+
+    .aboutme .intro a {
+        border: 2px solid #746c75;
+        color:#372d38;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: 600;
+        padding: 13px 10px;
+        font-size: 15px;
+    }
+
+    .aboutme .intro a:hover {
+        color:#979497;
+    }
+
+    .aboutme img {
+        position: relative;
+        float: right;
+        margin-right: 18%;
+        border:1px solid #bab4bb;
+        padding: 7px;
+        display: block;
+        margin-top: 70px;
+    }
+
+    /*skill*/
+
+    .skill {
+        width: 100%;
+        height: 620px;  
+        background-color: #f8f8f8;
+        color:#372d38;
+    }
+
+    .skill h2 {
+        width: 100%;
+        position: relative;
+        float: left;
+        font-size: 20px;
+        margin-top: 85px;
+        text-align: center;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    .skill > p {
+        width:100%;
+        position: relative;
+        float: left;
+        font-size: 15px;
+        clear: both;
+        text-align: center;
+        margin-top: 43px;
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    .skill .photograph {
+        width: 30%;
+        position: relative;
+        float: right;
+        margin-top: 70px;
+        right: 18%;
+    }
+
+    .skill .intro p {
+        width: 30%;
+        position:relative;
+        float: left;
+        margin-top: 55px;
+        left: 18%;
+        line-height: 30px;
+        text-align: justify;
+        text-indent: 32px;
+    }
+
+    .skillbar {
+    position:relative;
+    display:block;
+    margin-bottom:53px;
+    width:100%;
+    background:#e2e1e2;
+    height:7px;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    -webkit-transition:0.4s linear;
+    -moz-transition:0.4s linear;
+    -ms-transition:0.4s linear;
+    -o-transition:0.4s linear;
+    transition:0.4s linear;
+    -webkit-transition-property:width, background-color;
+    -moz-transition-property:width, background-color;
+    -ms-transition-property:width, background-color;
+    -o-transition-property:width, background-color;
+    transition-property:width, background-color;
+}
+
+    .skillbar-title {
+        position:absolute;
+        top:-27px;
+        left:0;
+        font-weight:bold;
+        font-size:13px;
+        line-height:27px;
+        text-transform:uppercase;
+        letter-spacing:2px;
+        color:#5b4c5c;
+    }
+
+    .skillbar-title span {
+        display:block;
+    }
+
+    .skillbar-bar {
+        height:7px;
+        width:0px;
+        background:#e88988;
+    }
+
+    .skill-bar-percent {
+        position:absolute;
+        top:-24px;
+        font-size:14px;
+        color:#796f7a;
+        margin-left:-20px;
+    }
+
+    /*workexperience*/
+    .workexp {
+        width: 100%;
+        height: 650px;
+        background-color: white;
+        color:#372d38;
+    }
+
+     .workexp >h2 {
+        width: 100%;
+        position: relative;
+        float: left;
+        font-size: 20px;
+        margin-top: 85px;
+        text-align: center;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    .workexp > p {
+        width:100%;
+        position: relative;
+        float: left;
+        font-size: 15px;
+        clear: both;
+        text-align: center;
+        margin-top: 43px;
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    .workexp .experience {
+        width: 72%;
+        height: 682px;
+        position: relative;
+        float: left;
+        left: 50%;
+        margin-left: -40%;
+        margin-top: 30px;
+    }
+
+    .workexp .exp1 {
+        width: 100%;
+        height: 260px;
+        position: relative;
+        float: left;
+        margin-top: 40px;
+    }
+
+    .workexp .exp1 h1{
+        width:15%;
+        height: 160px;
+        position: relative;
+        float: left;
+        margin-top: 25px;
+        font-size: 20px;
+        text-transform: capitalize;
+        font-weight: 500;
+        margin-left: 11%;
+        font-family:'Crimson Text',serif;
+        font-style: italic;
+        border-right: 1px solid #372d38;
+        padding-top: 76px;
+
+    }
+
+    .workexp .exp1  h2 {
+        margin-left: 33%;
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: black;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+ 
+    .workexp .exp1  h3 {
+        margin-left: 33%;
+        font-size: 14px;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+
+    .workexp .exp1 p {
+        margin-left: 33%;
+        margin-top: 26px;
+        font-weight: 350;
+        line-height: 30px;
+        text-align: justify;
+    }
+
+    /*education*/
+
+    .edu {
+        width: 100%;
+        height: 840px;
+        background-color: #f8f8f8;
+        color:#372d38;
+    }
+
+    .edu >h2 {
+        width: 100%;
+        position: relative;
+        float: left;
+        font-size: 20px;
+        margin-top: -200px;
+        text-align: center;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    .edu > p {
+        width:100%;
+        position: relative;
+        float: left;
+        font-size: 15px;
+        clear: both;
+        text-align: center;
+        margin-top: -120px;
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    .edu .education {
+        width: 72%;
+        height: 682px;
+        position: relative;
+        float: left;
+        left: 50%;
+        margin-left: -40%;
+        margin-top: -60px;
+    }
+
+    .edu .edu1 {
+        width: 100%;
+        height: 260px;
+        position: relative;
+        float: left;
+        margin-top: 40px;
+    }
+
+    .edu .edu1 h1{
+        width:15%;
+        height: 110px;
+        position: relative;
+        float: left;
+        margin-top: 35px;
+        font-size: 20px;
+        text-transform: capitalize;
+        font-weight: 500;
+        margin-left: 11%;
+        font-family:'Crimson Text',serif;
+        font-style: italic;
+        padding-top: 60px;
+        border-right: 1px solid #372d38;
+    }
+
+    .edu .edu1  h2 {
+        margin-left: 33%;
+        font-size: 18px;
+        letter-spacing: 3px;
+        color: black;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+
+    .edu .edu1 p {
+        margin-left: 33%;
+        margin-top: 30px;
+        font-weight: 350;
+        line-height: 30px;
+        position: absolute;
+        text-align: justify;
+    }
+
+    .edu .edu2 {
+        width: 100%;
+        height: 260px;
+        position: relative;
+        float: left;
+        margin-top: 40px;
+    }
+
+    .edu .edu2 h1{
+        width:15%;
+        height: 110px;
+        padding-top: 70px;
+        position: relative;
+        float: left;
+        margin-top: 30px;
+        font-size: 20px;
+        text-transform: capitalize;
+        font-weight: 500;
+        margin-left: 11%;
+        font-family:'Crimson Text',serif;
+        font-style: italic;
+        border-right: 1px solid #372d38;
+    }
+
+    .edu .edu2  h2 {
+        margin-left: 33%;
+        font-size: 18px;
+        letter-spacing: 3px;
+        color: black;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+
+     .edu .edu2  h3 {
+        margin-left: 33%;
+        font-size: 14px;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+
+    .edu .edu2 p {
+        margin-left: 33%;
+        margin-top: 26px;
+        font-weight: 350;
+        line-height: 30px;
+        text-align: justify;
+    }
+
+    /*portfolio*/
+    
+    .portfolio {
+        width: 100%;
+        height: 1030px;
+        background-color: #FFFFFF;
+        color: #372d38;
+        margin-top: 0;
+    }
+
+    .portfolio >h2 {
+        width: 100%;
+        position: relative;
+        float: left;
+        font-size: 20px;
+        margin-top: 20px;
+        text-align: center;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    .portfolio > p {
+        width:100%;
+        position: relative;
+        float: left;
+        font-size: 15px;
+        clear: both;
+        text-align: center;
+        margin-top: 43px;
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+
+
+    .portfolio ul {
+        list-style-type: none;
+    }
+
+    .portfolio li {
+        display: inline;
+    }
+
+    .portfolio .list ul{
+        width: 50%;
+        position: relative;
+        float: left;
+        left: 50%;
+        margin-left: -25%;
+        margin-top: 55px;
+        text-align: center;
+
+        clear: both;
+        text-transform: uppercase;
+    }
+
+    .portfolio .list li {
+        padding-left: 25px;
+        padding-right: 25px;
+        letter-spacing: 3px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .portfolio .list a {
+        color: #8B8787;
+    }
+
+    .portfolio .list a:hover{
+        color: #000;
+
+
+    }
+
+
+    .portfolio .list li.line {
+        border-right: 1px solid #372d38;
+    }
+
+    .photo {
+        width: 100%;
+        clear: both;
+        position: relative;
+        float: left;
+        margin-top: 55px;
+    }
+
+    .photo .row2 {
+        margin-top: -15px;
+    }
+
+
+	/*aboutme*/
+
+    .midd1-me {
+		width: 100%;
+		height: 350px;
+		background-color: #663399;
+		color: white;
+		text-align: center;
+		font-size: 35px;
+    }
+
+    .midd1-me h3 {
+    	width: 50%;
+    	letter-spacing: 3px;
+    	position: relative;
+    	float: left;
+    	left: 50%;
+    	margin-left: -25%;
+    	margin-top: 170px;
+    }
+
+    .midd2-me {
+    	width: 100%;
+    	height: 1000px;
+    	background-color: white;
+    }
+
+    .info-me h2, .info-me > p {
+    	width: 50%;
+    	position: relative;
+    	float: left;
+    	left: 50%;
+    	margin-left: -25%;
+    	margin-top: 25px;
+    	clear: both;
+    	text-align: center;
+    }
+
+    .info-me > p {
+    	margin-top: -10px;
+    }
+
+	.img-me img{
+		width: 160px;
+		position: relative;
+		float: left;
+		left: 50%;
+		margin-left: -80px;
+		border-radius: 30px;
+		margin-top: 80px;
+
+	}
+
+    .section-me {
+    	width: 50%;
+    	position: relative;
+    	float: left;
+    	left: 50%;
+    	margin-left: -25%;
+    	margin-top: 20px;
+    	clear: both;
+    }
+
+    /*contact*/
+
+    .midd1-contact {
+        width: 100%;
+        height: 350px;
+        background-color: #663399;
+        color: white;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .midd1-contact h3 {
+        width: 50%;
+        letter-spacing: 3px;
+        position: relative;
+        float: left;
+        left: 50%;
+        margin-left: -25%;
+        margin-top: 170px;
+    }
+    .midd2-contact {
+    	width: 100%;
+    	height: 900px;
+    	background-color: white;
+    }
+
+    .midd2-contact p {
+    	width: 50%;
+    	text-align: center;
+    	position: relative;
+        float: left;
+        left: 50%;
+        margin-left: -25%;
+        margin-top: 70px;
+    }
+
+
+    .message-contact {
+    	width: 50%;
+    	position: relative;
+        float: left;
+        left: 50%;
+        margin-left: -25%;
+        margin-top: 50px;
+        clear: both;
+    }
+
+    .message-contact input {
+        width: 400px;
+    	background: #fafafa;
+    	color: #797979;
+    	padding: 15px 20px;
+    	border: #f4f3f3 1px solid;
+        margin: 0px auto 30px auto;
+    	font-size: 18px;
+    	display: block;
+    	
+    }
+
+    .message-contact textarea {
+    	background: #fafafa;
+    	color: #797979;
+    	border: #f4f3f3 1px solid; 
+    	padding: 15px 20px;
+    	margin: 0  auto;
+    	display: block;
+    	height: 300px;
+    	width: 400px;
+    	font-size: 16px;
+    	resize: none;
+    }
+	
+	#submit-contact {
+		background:#3bc492;
+		color: #fff;
+		width: 130px;
+		letter-spacing: 4px;
+		text-transform: uppercase;
+		font-weight: bold;
+		display: block;
+		margin-top: 50px;
+        border-radius: 10px;
+
+	}
+    	#submit-contact:hover {
+    	background-color: #3d3d3d;
+    	color: #fff;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

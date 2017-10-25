@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	<link rel='stylesheet' href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+	<link rel="stylesheet" href='stylesheets/main.css'>
+	<script src='javascripts/jquery-3.2.1.js'></script>
+</head>
+<body>
+	<div class="header">
+		<div class="hleft">
+			<p><a href="/">home</a></p>
+		</div>
+		<div class="hright">
+			<ul class="nav">
+				<li><a href="/aboutme">aboutme</a></li>
+				<li><a href="#">resume</a></li>
+				<li><a href="/contact">contact</a></li>
+				<li><a href='/signin'><%= state %></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="middle-home">
+		
+		<div class="midd1-home">
+			<h1 class="title0">hello</h1>
+			<p class="title1">my name is</p>
+			<p class="title2">yida liu</p>
+			<p class="title3"><span class="line"></span><span>&</span><span class="line"></span></p>
+			<p class="title4">i'm a web designer</p>
+		</div>
+		<div class="midd2-home">
+
+			<div class="aboutme">
+				<h2>about me</h2>
+				<p>A small introduction about my self</p>
+				<img src="images/me.jpg" alt="me" width="230px" height="320px">
+				<div class="intro">
+					<h4>刘逸达</h4>
+					<h3>Webdesigner & Web Developer<h3>
+						<p>本人就读于南京工程学院，在校期间担任通信工程学院外联部干事，常为院里举办的活动拉赞助，培养了我良好的与人沟通能力，其次还参加了校大学生艺术团器乐团，担任小提琴手的职位，平时乐团的排练造就了能很好融入团队合作的品格。在四年的时间里，两次获得院系奖学金单项奖，并且在大一下半学期就拿到了大学英语四级证书，随后又拿到了大学英语六级证书。我喜欢有关网络方面的编程，例如路由器的配置，深入了解各类路由协议，例如可利用ENSP进行BGP|RIP|OSPF|DHCP协议的配置，实现小型局域网络的通信。在三年学习的课余时间里，掌握了网页前端编程HTML5|CSS3|JAVASCRIPT,把个人制作的关于班级课余活动内容发布到网站。</p>
+						<a href="../views/aboutme.html">learn more</a>
+				</div>		
+			</div>
+
+			<div class="skill">
+				<h2>skills&expertise</h2>
+				<p>I can say i'm quite good at</p>
+				<div class="photograph">
+					<div class="skillbar clearfix " data-percent="94%">
+                    <div class="skillbar-title"><span>Web design</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->
+                
+                <div class="skillbar clearfix " data-percent="86%">
+                    <div class="skillbar-title"><span>HTML / CSS</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->
+                
+                <div class="skillbar clearfix " data-percent="41%">
+                    <div class="skillbar-title"><span>javascript/jquery</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->
+                
+                <div class="skillbar clearfix " data-percent="52%">
+                    <div class="skillbar-title"><span>nodejs</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->  
+					
+				</div>
+				<div class="intro">
+					<p>爱好网页编程的我，在大一的时候参加了网页制作等选修课程，利用Dreamweaver设计网页，但由于其代码结构过于庞大复杂，后来又学习了HTML|CSS|JAVASCRIPT等前端语言，也熟练掌握Jquery|Bootstrap等框架,并能熟练使用Gulp自动化构建工具，例如Browsersync浏览器同步测试工具，使用gulp-minify-css|gulp-uglify|gulp-concat模块实现对Css和Javascript文件进行压缩。在接下来的时间里，我将了解学习Mongodb数据库和Nodejs后端框架的使用和开发，建立一套相对功能完整的web站点，并对网站的安全和结构加以优化。</p>
+				</div>
+			</div>
+
+			<div class="workexp">
+				<h2>work experience</h2>
+				<p>	My previous associations</p>
+				<div class="experience">
+					<div class="exp1">
+						<h1>july,2014 <br>10 date</h1>
+						<h2>南京牧信科技有限公司</h2>
+						<h3>网络工程师</h3>
+						<p>南京牧信科技有限公司是一家民营高科技企业，主要经营计算机、通信、网络的软硬件技术、信息技术的开发实现。实习实训一共分为两个阶段：<br>第一阶段:学习了路由器的配置，其中包括：ip网络基础；VRP的操作；静态路由的配置；距离矢量路由协议；链路状态路由协议；BGP路由协议基础；以太网技术。<br>第二阶段:学习了LTE移动通信的有关内容，其中包括：LTE-FDD基础；LTE关键技术；LTE-4G网络建设与维护；LTE运营与新技术发展趋势；LTE网络接口信令。
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- education -->
+			<div class="edu">
+				<h2>education&diplomas</h2>
+				<p>I'm a good student</p>
+				<div class="education">
+					<div class="edu1">
+						<h1>aug,2014 <br>20 date</h1>
+						<h2>长春市十一高中</h2>
+						<p>长春市十一高中，是吉林省首批办好的重点中学，始建于1925年，是一所独立高中。学校坐落在景阳大街2666号，与市人大、市政协、省市区检察院和法院、省司法警官学院、财专、商专、绿园区政府等单位毗邻。
+						</p>
+					</div>
+					<div class="edu2">
+						<h1>Sept,2018 <br>12 date</h1>
+						<h2>南京工程学院</h2>
+						<h3>学士学位</h3>
+						<p>南京工程学院是江苏省属普通本科高校，坐落于历史文化名城南京。学校是全国高等院校应用型本科院校专门委员会主任委员单位，全国服务特需硕士研究生培养单位联盟副理事长单位，新建本科院校教学工作合格评估方案主要起草单位，也是教育部“卓越工程师教育培养计划”和教育部CDIO工程教育改革首批试点高校。
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="portfolio">
+				<h2>portfolio</h2>
+				<p>What I hava done in my life</p>
+				<div class="list">
+					<ul>
+						<li class="line"><a class="pla1" href="##">all</a></li>
+						<li class="line"><a class="pla2" href="##">Nanjing</a></li>
+						<li class="line"><a class="pla3" href="##"> Tibet</a></li>
+						<li class="line"><a class="pla4" href="##">Xiamen</a></li>
+						<li ><a href="##">Suzhou</a></li>
+					</ul>
+				</div>
+				<div class="photo">
+					<div class="row1">
+					<ul>
+						<li class="pho1"><a href="##"><img  src="images/1.jpg" alt="" width="400px" height="300px"></a></li>
+						<li class="pho2"><a href="##"><img  src="images/2.jpg" alt="" width="400px" height="300px"></a></li>
+						<li class="pho3"><a href="##"><img  src="images/3.jpg" alt="" width="400px" height="300px"></a></li>
+						<li class="pho4"><a href="##"><img   src="images/4.jpg" alt="" width="400px" height="300px"></a></li>
+					</ul>
+
+					<div class="row2">
+					<ul>
+						<li class="pho5"><a href="##"><img src="images/5.jpg" alt="" width="400px" height="300px"></a></li>
+						<li class="pho6"><a href="##"><img src="images/6.jpg" alt="" width="400px" height="300px"></a></li>
+						<li class="pho7"><a href="##"><img src="images/7.jpg" alt="" width="400px" height="300px"></a></li>
+						<li class="pho8"><a href="##"><img src="images/9.jpg" alt="" width="400px" height="300px"></a></li>
+					</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<p class="follow">follow me</p>
+		<div class="wrapper"> 
+			    <ul> 
+			      <li><a href="https://m.facebook.com/yida.liu.104"><i class="fa fa-facebook"></i></a> </li> 
+			      <li><a href="https://github.com/lyddias"><i class="fa fa-github-square"></i></a> </li>   
+			      <li> <a href="https://www.linkedin.com/in/yidallu"><i class="fa fa-linkedin"></i></a> </li>
+			      <li> <a href="http://weibo.com/p/1005051853667490"><i class="fa fa-weibo"></i></a> </li> 
+			      <li> <a href="https://twitter.com/yida_liu"><i class="fa fa-twitter"></i></a> </li> 
+			  </ul>
+			</div>
+		<p class="beian">Copyright © 2017 zhaozhaokan.club. All rights reserved. </p>	
+	</div>	
+
+
+	<script src="javascripts/portfolio.js"></script>
+</body>
+</html>
+
+
+
