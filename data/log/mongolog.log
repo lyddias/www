@@ -718,3 +718,43 @@
 2017-10-25T17:48:53.749+0800 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
 2017-10-25T17:48:53.749+0800 I CONTROL  [consoleTerminate] now exiting
 2017-10-25T17:48:53.750+0800 I CONTROL  [consoleTerminate] shutting down with code:12
+2017-10-25T23:03:52.757+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-10-25T23:03:53.197+0800 I CONTROL  [initandlisten] MongoDB starting : pid=12716 port=27017 dbpath=D:\www\data\db 64-bit host=DESKTOP-8VVDDK3
+2017-10-25T23:03:53.197+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-10-25T23:03:53.197+0800 I CONTROL  [initandlisten] db version v3.4.9
+2017-10-25T23:03:53.197+0800 I CONTROL  [initandlisten] git version: 876ebee8c7dd0e2d992f36a848ff4dc50ee6603e
+2017-10-25T23:03:53.197+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-10-25T23:03:53.197+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-10-25T23:03:53.197+0800 I CONTROL  [initandlisten] modules: none
+2017-10-25T23:03:53.197+0800 I CONTROL  [initandlisten] build environment:
+2017-10-25T23:03:53.197+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-10-25T23:03:53.197+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-10-25T23:03:53.197+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-10-25T23:03:53.197+0800 I CONTROL  [initandlisten] options: { config: "d:\www\data\mongod.cfg", security: { authorization: "disabled" }, storage: { dbPath: "D:\www\data\db" }, systemLog: { destination: "file", logAppend: true, path: "D:\www\data\log\mongolog.log" } }
+2017-10-25T23:03:53.198+0800 E NETWORK  [initandlisten] listen(): bind() failed 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。 for socket: 0.0.0.0:27017
+2017-10-25T23:03:53.198+0800 E NETWORK  [initandlisten] Failed to set up sockets during startup.
+2017-10-25T23:03:53.198+0800 E STORAGE  [initandlisten] Failed to set up listener: InternalError: Failed to set up sockets
+2017-10-25T23:03:53.198+0800 I NETWORK  [initandlisten] shutdown: going to close listening sockets...
+2017-10-25T23:03:53.199+0800 I NETWORK  [initandlisten] shutdown: going to flush diaglog...
+2017-10-25T23:03:53.200+0800 I CONTROL  [initandlisten] now exiting
+2017-10-25T23:03:53.200+0800 I CONTROL  [initandlisten] shutting down with code:48
+2017-10-26T09:25:39.594+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-10-26T09:25:40.170+0800 I CONTROL  [initandlisten] MongoDB starting : pid=4960 port=27017 dbpath=D:\www\data\db 64-bit host=DESKTOP-8VVDDK3
+2017-10-26T09:25:40.170+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-10-26T09:25:40.170+0800 I CONTROL  [initandlisten] db version v3.4.9
+2017-10-26T09:25:40.170+0800 I CONTROL  [initandlisten] git version: 876ebee8c7dd0e2d992f36a848ff4dc50ee6603e
+2017-10-26T09:25:40.170+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-10-26T09:25:40.170+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-10-26T09:25:40.170+0800 I CONTROL  [initandlisten] modules: none
+2017-10-26T09:25:40.170+0800 I CONTROL  [initandlisten] build environment:
+2017-10-26T09:25:40.170+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-10-26T09:25:40.170+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-10-26T09:25:40.170+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-10-26T09:25:40.170+0800 I CONTROL  [initandlisten] options: { config: "d:\www\data\mongod.cfg", security: { authorization: "disabled" }, storage: { dbPath: "D:\www\data\db" }, systemLog: { destination: "file", logAppend: true, path: "D:\www\data\log\mongolog.log" } }
+2017-10-26T09:25:40.171+0800 E NETWORK  [initandlisten] listen(): bind() failed 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。 for socket: 0.0.0.0:27017
+2017-10-26T09:25:40.171+0800 E NETWORK  [initandlisten] Failed to set up sockets during startup.
+2017-10-26T09:25:40.171+0800 E STORAGE  [initandlisten] Failed to set up listener: InternalError: Failed to set up sockets
+2017-10-26T09:25:40.171+0800 I NETWORK  [initandlisten] shutdown: going to close listening sockets...
+2017-10-26T09:25:40.171+0800 I NETWORK  [initandlisten] shutdown: going to flush diaglog...
+2017-10-26T09:25:40.171+0800 I CONTROL  [initandlisten] now exiting
+2017-10-26T09:25:40.171+0800 I CONTROL  [initandlisten] shutting down with code:48
