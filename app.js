@@ -7,6 +7,7 @@ var multer = require('multer');
 var session = require('express-session');
 var routes = require('./routes/users');
 var app = express();
+app.listen(80);
 
 // view engine setup
 app.set('views', path.join(__dirname, './views'));
